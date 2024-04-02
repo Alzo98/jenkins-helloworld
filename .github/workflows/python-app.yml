@@ -31,3 +31,5 @@ jobs:
     - name: Test with pytest
       run: |
         python sample.py
+    - name: Write to file
+      run: echo "test reussi dans ec2" > test.txt
