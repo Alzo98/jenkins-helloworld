@@ -32,4 +32,4 @@ jobs:
       run: |
         python sample.py
     - name: Write to file
-      run: echo "test reussi dans ec2" > test.txt
+      run: echo "test reussi dans ec2 host" > test.txt
